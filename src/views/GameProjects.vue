@@ -5,11 +5,14 @@
     <div style="margin-bottom: 30px;">
       The following are some games I've made or heavily contributed to.  Click for more details!
     </div>
-
+    
     <ProjectsList v-bind:projects="projects" />
 
-    <div style="margin-top: 20px;">
-      I am still working to display more projects I worked on! <br>
+    <div style="margin-top: 60px; margin-bottom: 60px;">
+      And here is what I'm working on at the moment!
+      <div class="project-item">
+        <iframe class="youtube" src="https://www.youtube.com/embed/kFd1UHp1lAs?si=v9WFmLDZLEZ6xpjf" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -31,3 +34,20 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.project-item {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+iframe.youtube {
+        width: 100%;
+        min-height: 500px;
+    }
+</style>

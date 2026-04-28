@@ -9,14 +9,13 @@
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 60px; margin-bottom: 60px;">
-      And here is what I'm working on at the moment!
+      And here is what I'm working on at the moment on my free time!
       <div class="project-item">
-        <iframe class="youtube" src="https://www.youtube.com/embed/kFd1UHp1lAs?si=v9WFmLDZLEZ6xpjf" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/F9jw_zCf2sk?si=32eNQRyf5VDaWqXV&amp;start=12" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </template>
-
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";

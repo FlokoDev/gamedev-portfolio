@@ -6,9 +6,9 @@
       I'm <strong>Florian Kotecki</strong>, a gameplay programmer with 5 years of experience.
       <br />I'm a Game Dev, straight out of IT engineering school.
       <br />A confirmed troglodyte gamer, I've developed the critical thinking skills that detect a juicy and fun game. <br>
-      <br />So I became an expert on Unity and Unreal to be able to express my passions, which resulted in over 200M Downloads on mobile.
+      <br />So I became an expert on Unity and Unreal to be able to express my passions, which resulted in over 200M Downloads on mobile. And I'm not done yet.
       <br>
-      <br />I love the meticulousness, the patience, the pressure, and the dopamine rush that the job brings.
+      <br />I love the meticulousness, the patience, the pressure, and the dopamine rush that the job brings. I relish its unlimited knowledge learning sources.
       <br />I have a deep passion for project architecture and design patterns, which allow all the features to be linked together and enable designer-friendly juiciness in an optimal time frame, while facilitating the import of features and design tools into other projects. I also have a codebase for a few personal projects that proves to be quite handful.
       <router-link to="/contact">contact me</router-link>.
       <br />
@@ -29,19 +29,34 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Gamedev - Voodoo</h3>
+      <h3>Freelance Gameplay/Systems and Tools programmer</h3>
+      <h4>Since June 2025</h4>
+      <ul>
+      <div><li>Collaborated with cross-disciplinary teams to design and implement gameplay systems tailored to project requirements.</li></div>
+      <div><li>Includes development and polish of features, gameplay systems, scripting architecture, UX/UI design and optimization</li></div>
+      </ul>
+      
+      <h3>Gameplay/Tools Programmer - Voodoo</h3>
+      
       <h4>January 2024 - April 2025</h4>
-
-      <div>Joined a studio based on puzzle mobile casual games.</div>
-      <div>With the aid of an artist and a game designer, we produced over a dozen games published to the Apple store.</div>
-      <div>I handled the whole gameplay code, as well as Level Design Tools for the designer to use.</div>
+      <ul>
+      <div><li>Joined a studio based on puzzle mobile casual games.</li></div>
+      <div><li>Designed and implemented gameplay mechanics and features in puzzle and casual games to enhance engagement.</li></div>
+      <div><li>Developed and maintained level editor tools to facilitate efficient content creation by design teams.</li></div>
+      <div><li>Worked as a Technical Artist focusing on visual feedback and game polish to improve UX.</li></div>
+      </ul>
+      
       <h3>Gamedev - YSO Corp</h3>
       <h4>January 2021 - November 2023</h4>
-
-      <div>Design and development of mobile games, top to bottom, including art and analytics. Mostly in solo.</div>
-      <div>Started with Hypercasual, followed by Hybrid Casual games.</div>
-      <div>Also ported games from mobile to Nintendo Switch!</div>
+      <ul>
+      <div><li>Created and maintained over 50 hypercasual, hybrid, and casual mobile games, contributing to a cumulative total of over 200 million downloads.</li></div>
+      <div><li>Conducted detailed statistical analysis to inform game design decisions and optimize player retention rates.</li></div>
+      <div><li>Ported mobile games to Nintendo Switch, handling both development and software publishing processes to expand platform reach.</li></div>
+      <div><li>Led optimization efforts to improve performance on existing mobile games, enhancing user experience across devices.</li></div>
+      <div><li>Designed and developed scalable gameplay architectures using Unity and C# design patterns to support rapid game development and iteration.</li></div>
+      <div><li>Conceptualized and developed the game Stretch Guy, achieving over 100 million downloads and becoming a flagship success for the company.</li></div>
       <div class="tech-stack"></div>
+      </ul>
 
       <h3>Fullstack developer internships</h3>
       <h4>2017 & 2019</h4>
@@ -76,7 +91,7 @@
         <SkillRate name=".NET" />
         <SkillRate name="Odin"/>
         <SkillRate name="FEEL"/>
-        <SkillRate name=".Net"/>
+        <SkillRate name="ECS & DOTS"/>
         <SkillRate name="WPF & UWP"/>
       </div>
 

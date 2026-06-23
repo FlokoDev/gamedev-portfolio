@@ -3,11 +3,11 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Florian Kotecki</strong>, a gameplay programmer with 5 years of experience.
-      <br />I'm a Game Dev, straight out of IT engineering school.
-      <br />A confirmed troglodyte gamer, I've developed the critical thinking skills that detect a juicy and fun game. <br>
+      I'm <strong>Florian Kotecki</strong>, a gameplay programmer with 6 years of experience.
+      <br />
+      <br />As a confirmed troglodyte gamer, I've developed the critical thinking skills that detect a juicy and fun game. <br>
       <br />So I became an expert on Unity and Unreal to be able to express my passions, which resulted in over 200M Downloads on mobile. And I'm not done yet.
-      <br>
+      <br />I'm a Game Dev, straight out of IT engineering school.
       <br />I love the meticulousness, the patience, the pressure, and the dopamine rush that the job brings. I relish its unlimited knowledge learning sources.
       <br />I have a deep passion for project architecture and design patterns, which allow all the features to be linked together and enable designer-friendly juiciness in an optimal time frame, while facilitating the import of features and design tools into other projects. I also have a codebase for a few personal projects that proves to be quite handful.
       <router-link to="/contact">contact me</router-link>.
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.jpg" alt="Photo of Florian" />
+      <img src="img/resume-photo.png" alt="Photo of Florian" />
     </div>
 
     <div style="clear:both"></div>
@@ -209,7 +209,7 @@ h4 {
 
 .photo img {
   height: 450px;
-  width: 250px;
+  width: 350px;
 }
 
 .tech-stack {

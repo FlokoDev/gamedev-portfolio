@@ -13,11 +13,14 @@
 
       I've always been passionate about playing, discussing, designing and developing video games. I dedicated my career to this field and attend to keep evolving within it.<br/><br/>
 
-      <div style="margin-top: 40px;"><strong>I'm currently working as a Freelancer part-time, and I remain open for new opportunities.</strong> You can reach me at <a href="mailto:flo.kotecki@gmail.com">flo.kotecki@gmail.com</a> or <router-link to="/contact">get in touch here</router-link>.</div>
+      <div style="margin-top: 40px;"><strong>I'm currently working part-time as a Freelancer and developing my own games as the creator of UniReverse. I remain open for new opportunities.</strong> You can reach me at <a href="mailto:flo.kotecki@gmail.com">flo.kotecki@gmail.com</a> or <router-link to="/contact">get in touch here</router-link>.</div>
     </div>
 
-    <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of Florian" height="224" width="224"/> 
+    <div class="identity">
+      <div class="photo">
+        <img src="img/avatar.png" alt="Avatar of Florian" height="224" width="224"/>
+      </div>
+      <img class="unireverse-logo" src="img/unireverse-logo.png" alt="UniReverse logo"/>
     </div>
 
     <div style="clear:both"></div>
@@ -43,15 +46,23 @@ a {
   text-align: center;
 }
 
+.unireverse-logo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 32px auto 0;
+}
+
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
   }
 
-  .photo {
+  .identity {
     float: left;
-    padding: 10px;
     padding-left: 80px;
+    max-width: 320px;
   }
 }
 

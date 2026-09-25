@@ -10,8 +10,15 @@
 
     <div style="margin-top: 60px; margin-bottom: 60px;">
       And here is what I'm working on at the moment on my free time!
-      <div class="project-item">
-        <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/F9jw_zCf2sk?si=32eNQRyf5VDaWqXV&amp;start=12" frameborder="0" allowfullscreen></iframe>
+      <div class="short-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/yFemzh-j43Y"
+          title="UniReverse current game project"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </div>
@@ -35,18 +42,16 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.project-item {
-  height: 500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.short-video {
+  aspect-ratio: 9 / 16;
   width: 100%;
-  cursor: pointer;
-  position: relative;
+  max-width: 360px;
+  margin: 20px auto;
   overflow: hidden;
 }
 
-iframe.youtube {
-        width: 100%;
-        min-height: 500px;
-    }
+.short-video iframe {
+  width: 100%;
+  height: 100%;
+}
 </style>

@@ -93,11 +93,11 @@ export default [
     <hr>
 
     `, "#5a78af",false, true),
-    new ProjectData("project-3", "Casual Puzzle games", "img/projects/Puzzles.gif", `
+    new ProjectData("project-3", "Casual games", "img/projects/Puzzles.gif", `
 
     <div class="paragraph">
         The following are games made during my time at <strong>Voodoo</strong>, </br>
-        in a studio focused on <strong>Casual Puzzle games</strong>.</br>
+        in a studio focused on <strong>Casual games</strong>.</br>
         Each game took around 1/1.5 month to produce the coreloop, Level design tools and infinite durability.</br>
         I'm pretty satisfied with the results with cool visual feedbacks and overall juiciness, despite the lack of success due to a saturated marketplace.
     </div>

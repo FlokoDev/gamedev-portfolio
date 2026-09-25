@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -24,6 +23,12 @@ const routes: Array<RouteConfig> = [
     path: '/contact',
     name: 'Contact',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+  },
+  {
+    path: '/privacy-policy',
+    name: 'Privacy Policy',
+    meta: { standalone: true },
+    component: () => import(/* webpackChunkName: "privacy-policy" */ '../views/PrivacyPolicy.vue')
   },
   {
     path: '/404',

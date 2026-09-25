@@ -3,13 +3,13 @@
     
     <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
 
-    <Header />
+    <Header v-if="!$route.meta.standalone" />
     <div class="main">
       <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
     </div>
-    <Footer />
+    <Footer v-if="!$route.meta.standalone" />
   </div>
 </template>
 
